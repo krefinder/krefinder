@@ -1,7 +1,0 @@
-<android.os.Bundle: long getLong(java.lang.String)> -> _SOURCE_
-<android.os.Bundle: void putLong(java.lang.String, long)> -> _SINK_
-%<com.googlecode.android.widgets.DateSlider.Demo: void onCreate(android.os.Bundle)> -> _SINK_
-%<com.googlecode.android.widgets.DateSlider.Demo: android.app.Dialog onCreateDialog(int)> -> _SINK_
-<android.app.Activity: void onSaveInstanceState(android.os.Bundle)> -> _SOURCE_
-<android.app.Activity: void onSaveInstanceState(android.os.Bundle)> -> _SINK_
-%<java.util.Calendar: int get(int)> -> _SOURCE_
